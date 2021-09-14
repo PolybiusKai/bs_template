@@ -1,0 +1,104 @@
+/* 
+    Template Name: Basic HTML5/CSS3/JS Boilerplate
+    Author: RobSm!th
+    Version: 1.0.0
+*/
+
+
+/* 
+    Main Header, Navigation and Footer
+*/
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    /* background-color: #dd3f31; */
+}
+
+.copy {
+    margin-top: 1rem;
+    /* color: #eee; */
+    color: #888;
+}
+
+/* 
+    Main Content
+*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 45vh;
+}
+
+
+
+/* 
+    Buttons
+*/
+.my-btn {
+    display: inline-block;
+    background-color: transparent;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.my-btn-secondary {
+    color: #eee;
+    background-color: transparent;
+    border-color: #eee;
+}
+
+.my-btn-secondary:hover {
+    background-color: #f8f9fa;
+    color: #000;
+    border-color: #dae0e5;
+}
+
+/* 404 Page */
+.four_h1 {
+    color: #555;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.four_p {
+    margin: 0 auto;
+    color: #888;
+    width: 280px;
+}
+
+/* Media Quiries */
+@media only screen and (max-width: 280px) {
+
+    body,
+    .four_p {
+        width: 95%;
+    }
+
+    .four_h1 {
+        font-size: 1.5em;
+        margin: 0 0 0.3em;
+    }
+
+}
