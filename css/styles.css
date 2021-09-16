@@ -9,7 +9,9 @@
     Main Header, Navigation and Footer
 */
 
-
+#my-nav {
+    background-color: #dd3f31; !important
+}
 
 footer {
     display: flex;
