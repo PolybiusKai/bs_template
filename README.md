@@ -8,6 +8,6 @@ To start working on a project with this template simply download the file folder
 or you can use...
 
 ```
-git clone git@github.com:PolybiusKai/bs_template
+git clone git@github.com:PolybiusKai/bs_template.git
 ```
 
